@@ -80,7 +80,7 @@
             android:layout_marginBottom="10sp"
             android:text="@string/price"
             android:textColor="@color/background" />
-        
+
     </androidx.cardview.widget.CardView>
 
     <Button
@@ -132,5 +132,37 @@
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_next" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:text="Price"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/price_range_slider"
+        app:layout_constraintStart_toEndOf="@+id/card_view_spinner"
+        app:layout_constraintTop_toBottomOf="@+id/btn_next" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/price_range_slider"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="60dp"
+        android:valueFrom="0.0"
+        android:valueTo="1"
+        app:haloColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/card_view_spinner"
+        app:layout_constraintTop_toBottomOf="@id/btn_next"
+        android:layout_marginEnd="16dp"
+        app:thumbColor="#3F51B5"
+        app:thumbStrokeColor="@color/white"
+        app:trackColorActive="#5C6BC0"
+        app:trackColorInactive="@color/white"
+        app:values="@array/initial_slider_values">
+    </com.google.android.material.slider.RangeSlider>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

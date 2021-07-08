@@ -7,4 +7,5 @@
     <string name="press_next_to_get_some_activities">Press Next to get some activities</string>
     <string name="categoryType">Category</string>
     <string name="type">Type</string>
+    <string name="slider_desc">sliderDesc</string>
 </resources>
