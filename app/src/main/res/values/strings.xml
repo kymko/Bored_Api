@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bored Api</string>
+    <string name="next">Next</string>
+    <string name="category">Category</string>
+    <string name="price">Price 💰</string>
+    <string name="free">Free</string>
+    <string name="press_next_to_get_some_activities">Press Next to get some activities</string>
+    <string name="categoryType">Category</string>
+    <string name="type">Type</string>
+</resources>
